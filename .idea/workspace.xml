@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="242016fd-966d-475e-bf29-388c658560da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/aws_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/barter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/developer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/job_offer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/merch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kQXAHuTQ19sPSgskXumgXQzCJZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="242016fd-966d-475e-bf29-388c658560da" name="Default Changelist" comment="" />
+      <created>1605633644373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605633644373</updated>
+      <workItem from="1605633645528" duration="24316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="400" y="278" key="#Notifications" timestamp="1605633664188">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="400" y="278" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1605633664188" />
+    <state x="251" y="86" key="SettingsEditor" timestamp="1605634760443">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="251" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605634760443" />
+    <state x="11" y="49" width="1429" height="801" key="find.popup" timestamp="1605789185936">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="11" y="49" width="1429" height="801" key="find.popup/0.0.1440.900/-182.-1080.1920.1080@0.0.1440.900" timestamp="1605789185936" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605715189962">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605715189962" />
+  </component>
+</project>

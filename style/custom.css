@@ -1,0 +1,45 @@
+.hero {
+    background: linear-gradient(101.85deg, rgba(239, 155, 255, 0.22) 0%, rgba(111, 205, 255, 0.22) 50.7%, rgba(255, 215, 89, 0.22) 102.47%);
+}
+
+.prize_section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    position: relative;
+}
+
+.prizes_icon {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vh;
+}
+
+.prize_caption{
+    position: absolute;
+    bottom: 0;
+    font-weight: 900;
+
+}
+
+    .hero__heading, .hero__sub-heading, .section__intro__heading{
+        color: black !important;
+    }
+
+@media screen and (min-width: 900px){
+    .hero__information, .hero__illustration {
+
+        flex: 0 1 50% !important;
+
+    }
+}
+.intro_image{
+    width: 80%;
+    border-radius: 10px;
+}
+.hero__cta{
+    margin-bottom: 3vh !important;
+}
