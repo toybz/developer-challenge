@@ -17,6 +17,11 @@
     justify-content: center;
     padding-bottom: 3vh;
 }
+/*@media screen and (max-width: 500px) {
+    .prizes_icon {
+
+    }
+}*/
 
 .prize_caption{
     position: absolute;

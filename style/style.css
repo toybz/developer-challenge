@@ -4924,7 +4924,7 @@ html[data-v-614b20a3] {
 .hero__information[data-v-614b20a3] {
     -webkit-box-flex: 0;
     flex: 0 1 100%;
-    margin-bottom: 40px;
+   /* margin-bottom: 40px;*/
     padding-top: 0
 }
 
