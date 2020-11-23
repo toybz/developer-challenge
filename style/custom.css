@@ -17,19 +17,20 @@
     justify-content: center;
     padding-bottom: 3vh;
 }
-/*@media screen and (max-width: 500px) {
-    .prizes_icon {
 
-    }
-}*/
 
 .prize_caption{
     position: absolute;
     bottom: 0;
     font-weight: 900;
+    width: min-content;
 
 }
-
+@media screen and (max-width: 500px) {
+    .prizes_icon {
+        padding-bottom: 5vh;
+    }
+}
     .hero__heading, .hero__sub-heading, .section__intro__heading{
         color: black !important;
     }
