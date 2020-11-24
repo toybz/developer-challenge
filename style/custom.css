@@ -7,6 +7,15 @@
     flex-direction: row;
     margin-top: 3vh;
     position: relative;
+ justify-content: space-between;
+}
+
+.prize_container{
+  /*  margin: auto;*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vh;
 }
 
 .prizes_icon {
@@ -15,12 +24,14 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    padding-bottom: 3vh;
+    padding-bottom: 2vh;
 }
 
 
+
+
 .prize_caption{
-    position: absolute;
+   position: absolute;
     bottom: 0;
     font-weight: 900;
     width: min-content;
@@ -28,7 +39,7 @@
 }
 @media screen and (max-width: 500px) {
     .prizes_icon {
-        padding-bottom: 5vh;
+        padding-bottom: 2vh;
     }
 }
     .hero__heading, .hero__sub-heading, .section__intro__heading{
@@ -48,4 +59,7 @@
 }
 .hero__cta{
     margin-bottom: 3vh !important;
+}
+.footer__top{
+    padding-bottom: 4vh !important;
 }
