@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <title>Flutterwave Developer Challenge</title>
+    <meta data-n-head="ssr" charset="utf-8">
+    <meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+
+        @font-face {
+            font-family: Flutterwave;
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://flutterwave.com/_nuxt/fonts/5da28fe.ttf) format("truetype")
+        }
+
+        @font-face {
+            font-family: Flutterwave;
+            font-style: italic;
+            font-weight: 400;
+            src: url(https://flutterwave.com/_nuxt/fonts/c4c1543.ttf) format("truetype")
+        }
+
+        @font-face {
+            font-family: Flutterwave;
+            font-style: normal;
+            font-weight: 800;
+            src: url(https://flutterwave.com/_nuxt/fonts/8acb0e3.ttf) format("truetype")
+        }
+
+        @font-face {
+            font-family: Flutterwave;
+            font-style: normal;
+            font-weight: 900;
+            src: url(https://flutterwave.com/_nuxt/fonts/2b2a06b.ttf) format("truetype")
+        }
+
+        body {
+
+            font-size: 16px;
+            line-height: 24px;
+            font-family: Flutterwave, sans-serif;
+            font-weight: 400;
+            color: #333333;
+            background-color: #f4f6f8;
+
+        }
+
+        h1, h2, h3, h4, h5 {
+            line-height: 4vh !important;
+        }
+
+        html, html a {
+            -webkit-font-smoothing: antialiased;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, .004)
+        }
+
+        .content__container {
+            width: 90%;
+            margin: 15vh auto;
+
+        }
+
+        .intro__container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border-radius: 9px;
+            margin-bottom: 3vh;
+            background: #F2C94C;
+            padding: 4vh 2vw 0;
+        }
+
+        .flex_item {
+            display: flex;
+            flex: 1 1 0px;
+            width: 0
+        }
+
+        @media screen and (max-width: 500px) {
+            .intro__container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 9px;
+                margin-bottom: 0;
+                background: #F2C94C;
+                padding: 1vh 3vw 0;;
+            }
+
+            .intro_image {
+                width: 100%;
+            }
+        }
+
+
+        ul {
+            list-style: decimal;
+        }
+
+        li {
+            margin: 2vh 0;
+        }
+
+        .list_alpha_lower {
+            list-style: lower-alpha;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .conclusion_container {
+            margin-top: 5vh;
+        }
+
+        footer {
+            color: #828282;
+        }
+
+        .contact_container {
+            width: 70vw;
+            margin: 2vh auto;
+            padding: 4vh;
+            background: #FFFFFF;
+            text-align: center;
+        }
+
+        .social_icons_container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 2vh;
+        }
+
+        .social_icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 29px;
+            height: 29px;
+            background: #333333;
+            border-radius: 3px;
+            margin: 0 1vw;
+
+
+        }
+
+
+    </style>
+    <script src="https://use.fontawesome.com/41a59d54ac.js"></script>
+</head>
+
+<body class="content__container">
+<header>
+    <p>Hello Akin</p>
+    <div class="intro__container">
+        <div class="">
+            <h1>
+                Welcome to
+                the Flutterwave Developer
+                Challenge.
+            </h1>
+        </div>
+        <div class="">
+            <img class="intro_image" src="assets/images/developer.png">
+        </div>
+
+
+    </div>
+
+</header>
+
+<section>
+
+</section>
+
+<p>I'm excited to welcome you to the Flutterwave developer challenge. </p>
+<p> The task is simple: take a look at the scenario question below and use your understanding of our v3 API endpoints to
+    solve the challenge faced by the company in question.</p>
+
+<h2>First, here are the instructions:
+</h2>
+
+<ul>
+    <li>
+        This competition is open for 2 weeks. (Start date is October 5, 2020 and stop date is October 19, 2020. If you
+        entered late, you may have to work faster.)
+    </li>
+
+    <li>
+        Task may be carried out individually or as a group of not more than two developers. The prizes are tilted in
+        favour of single winners, although you can decide to share the spoils with a team mate if having one improves
+        your chances of winning.
+    </li>
+
+
+    <li>
+        Send a link to your completed work (your GitHub repo for the project with a readme doc that explains your work)
+        to
+        <a href="mailto:solomon@flutterwavego.com"> solomon@flutterwavego.com</a>
+        with the title <span class="bold">"FLW Dev Challenge - Your FirstName"</span> by 11pm, WAT on October 19, 2020.
+        (If you're a team, replace FirstName with GroupName.)
+    </li>
+
+    <li>
+        Submissions later than 11pm on October 19, 2020 will be considered invalid.
+    </li>
+</ul>
+
+
+<h2>The Challenge:
+</h2>
+
+<p>
+    "A group of business owners want to create an e-commerce market place (Codename: Jumga). Something like Jumia and
+    Konga. They hope to set up their services in Nigeria, Ghana, Kenya and the UK for starters. You have been tapped as
+    one of the possible dev candidates to handle setting up the payments side of things for the marketplace. Their MVP
+    requirements for payments are as follows:
+</p>
+
+<ul>
+    <li>
+        Each seller setting up on the platform pays a small token
+        for approval
+    </li>
+
+    <li>
+        For every sale, the total sale amount is broken down to be shared as follows:
+    </li>
+</ul>
+
+
+<p>
+    As an example, if an item from a seller, Adjunct Ankara costs 20,000 NGN and the delivery fee is 1,500 NGN. A sale
+    of the ankara will result in the below breakdown:
+</p>
+
+<ul class="list_alpha_lower">
+    <li> Jumga gets a commission of 400 NGN</li>
+    <li> Adjunct Ankara gets 19,200 NGN
+    </li>
+    <li> The dispatch rider gets 1,200 NGN while Jumga gets NGN 300 delivery commission</li>
+</ul>
+
+
+<p>
+    Jumga has decided to use Flutterwave because of their awesome reputation and the fact that they have support for
+    accepting payments in the countries Jumga wants to start with. As a tapped dev candidate, <span class="bold"> Your job is to create a technical proposal based on your review of the Flutterwave APIs. Document your findings and specify how you will use the Flutterwave APIs to build out Jumga's payment requirements listed above."</span>
+</p>
+
+<section class="conclusion_container">
+    <p>
+
+        After we close the competition, we will review all submissions and announce and award winners in about 2 weeks.
+
+    </p>
+
+    <p>Here's wishing you best of luck.
+    </p>
+
+    <p>Solomon Osadolo.</p>
+</section>
+
+<footer class="">
+    <div class="footer_text">
+
+    </div>
+    <p>
+        If you have any questions, please visit our
+        <a href="https://developer.flutterwave.com/discuss"> Support page</a>
+        or
+        <a href="mailto:developers@flutterwavego.com">contact us</a>. Our Customer Support Team is available 24/7.
+    </p>
+    <p>
+        Best Regards,
+    </p>
+    <p>
+        The Flutterwave Team!
+    </p>
+
+    <div class="contact_container">
+        <div class="social_icons_container">
+
+            <div class="social_icon">
+                <a href="https://twitter.com/theflutterwave"> <i class="fa fa-twitter" aria-hidden="true"
+                                                                 style="color: white"></i></a>
+
+            </div>
+
+            <div class="social_icon">
+                <a href="https://www.instagram.com/theflutterwave/">
+                    <i class="fa fa-instagram" aria-hidden="true" style="color: white"></i>
+                </a>
+            </div>
+            <div class="social_icon">
+                <a href="https://www.facebook.com/theFlutterwave/">
+                    <i class="fa fa-facebook" aria-hidden="true" style="color: white"></i>
+                </a>
+            </div>
+            <div class="social_icon">
+                <a href="https://www.linkedin.com/company/flutterwave/">
+                    <i class="fa fa-linkedin" aria-hidden="true" style="color: white"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <p>© Flutterwave Inc</p>
+        <p>
+            8, Providence street, Lekki, Lagos.
+        </p>
+
+        <span style="color: #BDBDBD;
+">  unsubscribe from this email</span>
+
+
+        <div>
+
+        </div>
+    </div>
+
+</footer>
+</body>
