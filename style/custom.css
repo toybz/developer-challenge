@@ -63,3 +63,21 @@
 .footer__top{
     padding-bottom: 4vh !important;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__top{
+        padding-bottom: 0 !important;
+    }
+}
+
+/*
+@media screen and (max-width: 768px) {
+    .section__row__column{
+        -webkit-box-flex: 0;
+        flex: 0 1 100% !important;
+
+    }
+    .pad_md_bottom{
+        padding-bottom: 3vh !important;
+    }
+}*/
